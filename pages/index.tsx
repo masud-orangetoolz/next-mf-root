@@ -48,7 +48,7 @@ export default function Home() {
             <Container>
                 <main>
                     <h1>
-                        Welcome to <a href="#">Root App</a>
+                        Welcome to <a href="#">Our Root App</a>
                     </h1>
 
                     <p>
