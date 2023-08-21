@@ -12,21 +12,24 @@ export default function Page() {
                 <meta
                     name="description"
                     content="Check out iPhone 12 XR Pro and iPhone 12 Pro Max. Visit your local store and for expert advice."
-                    key="description"
                 />
-                <meta property="image" content="https://example.com/images/cool-page.jpg"/>
+                <link rel="icon" href="/favicon1.png"/>
 
-                <meta property="og:title" content="iPhone 12 XS Max For Sale in Colorado - Big Discounts | Apple"  key="title"/>
+                <meta property="og:title" content="iPhone 12 XS Max For Sale in Colorado - Big Discounts | Apple"/>
                 <meta
                     property="og:description"
                     content="Check out iPhone 12 XR Pro and iPhone 12 Pro Max. Visit your local store and for expert advice."
-                    key="description"
                 />
                 <meta property="og:image" content="https://example.com/images/cool-page.jpg"/>
-                <link rel="icon" href="/favicon1.png"/>
+                <meta property="og:url" content="https://example.com"/>
+
+                <meta property="twitter:image" content="https://example.com/images/cool-page.jpg"/>
+                <meta property="twitter:card" content="iPhone 12 XS Max For Sale in Colorado - Big Discounts | Apple"/>
+                <meta property="twitter:title" content="iPhone 12 XS Max For Sale in Colorado - Big Discounts | Apple"/>
+                <meta property="twitter:description" content="Check out iPhone 12 XR Pro and iPhone 12 Pro Max. Visit your local store and for expert advice."/>
             </Head>
 
-            <Home />
+            <Home/>
         </div>
 
     )
