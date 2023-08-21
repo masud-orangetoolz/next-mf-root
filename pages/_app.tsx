@@ -1,6 +1,6 @@
 import { Provider } from "react-redux";
 import type {AppProps} from 'next/app'
-import RootLayout from "../components/common/layouts/RootLayout";
+import RootLayout from "../src/components/common/layouts/RootLayout";
 import {storeWrapper} from "../src/state/store";
 import '../styles/globals.css'
 

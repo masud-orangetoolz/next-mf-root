@@ -1,6 +1,6 @@
 import React from 'react';
 import dynamic from "next/dynamic";
-import LoadingFallback from "../components/common/fallback/LoadingFallback";
+import LoadingFallback from "../src/components/common/fallback/LoadingFallback";
 import {useGetUserListQuery} from "../src/state/features/users/userApiSlice";
 
 const Contact: React.ComponentType<Partial<{ userList: object[] }>> = dynamic(() => import('remoteApp/Contact'), {
